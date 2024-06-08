@@ -1,7 +1,7 @@
 services:
   - type: web
     name: gesture-painter
-    env: python
+    runtime: python
     plan: free
     buildCommand: pip install -r requirements.txt
     startCommand: python app.py
